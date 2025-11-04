@@ -966,19 +966,25 @@ const App = () => {
       ]
     },
      latihan2: {
-      title: "Latihan 2 (Studi Kasus)",
+      title: "Latihan 2 (Studi Kasus 1)",
       questions: [
-        { question: 'Seorang peneliti mencatat waktu lari 100m (detik): 10.2, 10.5, 10.1, 11.0, 10.2. Berapakah median dari data tersebut setelah diurutkan?', options: ['10.1', '10.2', '10.5', '11.0'], correct: 1 },
-        { question: 'Mean dari 5 angka adalah 20. Jika empat angkanya adalah 10, 15, 25, dan 30, berapakah angka kelima?', options: ['15', '20', '25', '30'], correct: 2 },
+        { question: 'Seorang peneliti mencatat waktu lari 100m (detik): 13, 9, 12, 10, 14. Berapakah median dari data tersebut setelah diurutkan?', options: ['9', '10', '12', '13'], correct: 2 },
+        { question: 'Mean dari 5 angka adalah 10. Jika empat angkanya adalah 5, 7, 13, dan 15, berapakah angka kelima?', options: ['8', '10', '9', '11'], correct: 1 },
+        { question: 'Seorang pemilik toko kue sedang meneliti jumlah pelanggan yang datang setiap hari selama satu minggu. Data yang diperoleh adalah sebagai berikut: 8, 5, 11, 9, 9, 10, 12. Berapa jumlah pelanggan yang paling sering datang pada satu hari dalam minggu tersebut?', options: ['10', '12', '5', '9'], correct: 3 },
         { question: 'Untuk data: 1, 2, 3, 4, 5, 6, 7. Berapakah nilai Kuartil Bawah (Q1)?', options: ['1', '2', '3', '2.5'], correct: 1 },
+        { question: 'Diberikan data tunggal yang terdiri dari 7 angka satuan sebagai berikut: 9, 2, 7, 5, 3, 8, 4. Tentukan nilai Desil ke-5 (D₅) dari kumpulan data tersebut.', options: ['9', '2', '3', '5'], correct: 3 },
+        { question: 'Diberikan data tunggal hasil survei kepuasan pelanggan (dalam skala 1-10) terhadap layanan sebuah toko: 5, 7, 3, 8, 4, 9, 6. Tentukan nilai Persentil ke-50 (P₅₀) dari kumpulan data tersebut.', options: ['6', '8', '7', '5.5'], correct: 0 },
       ]
     },
     latihan3: {
-      title: "Latihan 3 (Konsep Inferensial)",
+      title: "Latihan 3 (Studi Kasus 2)",
       questions: [
-        { question: 'Apa tujuan utama dari statistika inferensial?', options: ['Meringkas data yang ada', 'Membuat grafik dari data', 'Membuat kesimpulan tentang populasi dari sampel', 'Menghitung rata-rata data'], correct: 2 },
-        { question: 'Manakah dari berikut ini yang merupakan contoh sampel acak (random sample) terbaik dari populasi mahasiswa universitas?', options: ['Semua mahasiswa di kelas statistika', '100 mahasiswa pertama yang masuk perpustakaan', 'Memilih 100 nama secara acak dari daftar seluruh mahasiswa', 'Mahasiswa yang secara sukarela mengisi survei online'], correct: 2 },
-        { question: 'Jika ditemukan korelasi positif yang kuat antara jam belajar dan nilai ujian, apa artinya?', options: ['Belajar lebih lama menyebabkan nilai lebih tinggi', 'Nilai lebih tinggi menyebabkan belajar lebih lama', 'Siswa yang belajar lebih lama cenderung mendapat nilai lebih tinggi', 'Tidak ada hubungan sama sekali'], correct: 2 },
+        { question: 'Data {1, 2, 5, 5, 5, 5, 5}memiliki 7 data dengan nilai tertinggi 5. Berapakah nilai Mean (Rata-rata) dari data tersebut?', options: ['5', '3', '4', '5'], correct: 2 },
+        { question: 'Tentukan nilai Median dari kumpulan data yang telah diurutkan berikut: {1, 2, 2, 3, 4, 5, 6} ', options: ['3', '2', '4', '5'], correct: 0 },
+        { question: 'Data {2, 3, 4, 5, 6, 6, 2}. Tentukan semua nilai Modus dari data tersebut.', options: ['2', '2 dan 6', '5', '6'], correct: 1 },
+        { question: '	Dari data {1, 1, 3, 4, 5, 6, 6}, berapakah nilai Kuartil Atas (Q_3)?', options: ['5', '6', '4', '1'], correct: 1 },
+        { question: '	Untuk data {2, 3, 3, 4, 5, 5, 6}, berapakah nilai Desil ke-1 (D_8)?', options: ['3', '1', '2', '5'], correct: 2 },
+        { question: '	Hitung nilai Persentil ke-75 (P_{75}) dari data {2, 3, 3, 4, 5, 5, 6}', options: ['4', '6', '5', '1'], correct: 2 },
       ]
     }
   };
