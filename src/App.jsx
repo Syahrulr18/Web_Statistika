@@ -538,7 +538,7 @@ const App = () => {
       kuartil: {
         title: 'Kuartil (Data Tunggal)',
         content: `
-          <h3 class="text-2xl font-bold mb-4">Kuartil (Data Tunggal)</h3>
+
           <div class="bg-blue-900/30 border border-blue-800 p-4 rounded-lg mb-4">
             <p class="font-semibold mb-2 text-gray-300">Kuartil adalah nilai yang membagi sekumpulan data yang telah diurutkan menjadi empat bagian yang sama besar.</p>
             <ul class="list-disc list-inside mt-2 space-y-1 text-gray-300">
@@ -555,6 +555,10 @@ const App = () => {
           <div class="bg-gray-800 p-3 rounded shadow-sm mb-4 border border-blue-700">
             <p class="text-center text-xl font-mono text-white">Letak Q<sub>i</sub> = i * (n + 1) / 4</p>
             <p class="text-center text-sm text-gray-400 mt-2">i = 1, 2, atau 3 | n = jumlah data</p>
+          </div>
+          <div class="bg-gray-800 p-3 rounded shadow-sm mb-4 border border-blue-700">
+            <p class="text-center text-xl font-mono text-white">Nilai Q<sub>i</sub> = Data ke-x + d * (Data ke-(x+1) - Data ke-x)</p>
+            <p class="text-center text-sm text-gray-400 mt-2">x = Bagian bulat dari letak Q<sub>i</sub> | d = Bagian desimal</p>
           </div>
           <p class="mb-4 text-gray-300">Jika letak Q<sub>i</sub> adalah bilangan desimal (misal 2.25), nilainya dihitung menggunakan interpolasi:</p>
           <p class="font-mono bg-gray-900 p-2 rounded mb-4 text-sm text-gray-300">Nilai Q<sub>i</sub> = Data ke-X + D * (Data ke-(X+1) - Data ke-X)</p>
@@ -581,7 +585,6 @@ const App = () => {
       desil: {
         title: 'Desil (Data Tunggal)',
         content: `
-          <h3 class="text-2xl font-bold mb-4">Desil (Data Tunggal)</h3>
           <div class="bg-green-900/30 border border-green-800 p-4 rounded-lg mb-4 text-gray-300">
             <p class="font-semibold mb-2">Desil adalah nilai yang membagi sekumpulan data yang telah diurutkan menjadi sepuluh bagian yang sama besar.</p>
             <p>Ada 9 nilai desil, yaitu D<sub>1</sub>, D<sub>2</sub>, ..., D<sub>9</sub>.</p>
@@ -594,6 +597,10 @@ const App = () => {
           <div class="bg-gray-800 p-3 rounded shadow-sm mb-4 border border-green-700">
             <p class="text-center text-xl font-mono text-white">Letak D<sub>i</sub> = i * (n + 1) / 10</p>
             <p class="text-center text-sm text-gray-400 mt-2">i = 1, 2, ..., 9 | n = jumlah data</p>
+          </div>
+          <div class="bg-gray-800 p-3 rounded shadow-sm mb-4 border border-green-700">
+            <p class="text-center text-xl font-mono text-white">Nilai D<sub>i</sub> = Data ke-x + d * (Data ke-(x+1) - Data ke-x)</p>
+            <p class="text-center text-sm text-gray-400 mt-2">x = Bagian bulat dari letak D<sub>i</sub> | d = Bagian desimal</p>
           </div>
           <p class="mb-4 text-gray-300">Sama seperti kuartil, jika letaknya desimal, gunakan interpolasi linear.</p>
           <h4 class="font-bold text-xl mb-3 mt-6">Contoh:</h4>
@@ -623,6 +630,10 @@ const App = () => {
           <div class="bg-gray-800 p-3 rounded shadow-sm mb-4 border border-purple-700">
             <p class="text-center text-xl font-mono text-white">Letak P<sub>i</sub> = i * (n + 1) / 100</p>
             <p class="text-center text-sm text-gray-400 mt-2">i = 1, 2, ..., 99 | n = jumlah data</p>
+          </div>
+          <div class="bg-gray-800 p-3 rounded shadow-sm mb-4 border border-purple-700">
+            <p class="text-center text-xl font-mono text-white">Nilai P<sub>i</sub> = Data ke-x + d * (Data ke-(x+1) - Data ke-x)</p>
+            <p class="text-center text-sm text-gray-400 mt-2">x = Bagian bulat dari letak P<sub>i</sub> | d = Bagian desimal</p>
           </div>
           <p class="mb-4 text-gray-300">Interpolasi linear juga digunakan jika letaknya desimal.</p>
           <h4 class="font-bold text-xl mb-3 mt-6">Contoh:</h4>
