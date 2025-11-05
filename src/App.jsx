@@ -629,7 +629,7 @@ const App = () => {
   const materi = {
     pengenalan: {
       pengertian: {
-        title: 'Pengertian Statistika',
+        title: 'Statistika',
         content: `
           <h3 class="text-2xl font-bold mb-4">Apa itu Statistika?</h3>
           <p class="mb-4 text-gray-300">Statistika adalah ilmu yang mempelajari cara mengumpulkan, mengorganisir, menganalisis, menginterpretasi, dan menyajikan data. Statistika membantu kita membuat keputusan berdasarkan data dan memahami pola dalam informasi yang kita miliki.</p>
@@ -656,9 +656,9 @@ const App = () => {
         `
       },
       jenisData: {
-        title: 'Jenis-Jenis Data',
+        title: 'Kalsifikasi Data',
         content: `
-          <h3 class="text-2xl font-bold mb-4">Klasifikasi Data</h3>
+
           <div class="mb-6">
             <h4 class="font-bold text-xl mb-3">1. Data Kualitatif (Kategorikal)</h4>
             <div class="bg-purple-900/30 border border-purple-800 p-4 rounded-lg mb-4">
@@ -698,7 +698,7 @@ const App = () => {
       mean: {
         title: 'Mean (Rata-rata)',
         content: `
-          <h3 class="text-2xl font-bold mb-4">Mean (Rata-rata)</h3>
+
           <div class="bg-blue-900/30 border border-blue-800 p-4 rounded-lg mb-4">
             <p class="font-semibold mb-2 text-gray-300">Mean adalah jumlah semua nilai data dibagi dengan banyaknya data.</p>
             <div class="bg-gray-800 p-3 rounded mt-3 shadow-sm">
@@ -726,7 +726,7 @@ const App = () => {
       median: {
         title: 'Median (Nilai Tengah)',
         content: `
-          <h3 class="text-2xl font-bold mb-4">Median (Nilai Tengah)</h3>
+
           <div class="bg-green-900/30 border border-green-800 p-4 rounded-lg mb-4">
             <p class="font-semibold mb-2 text-gray-300">Median adalah nilai tengah dari data yang telah diurutkan.</p>
           </div>
@@ -762,7 +762,7 @@ const App = () => {
       modus: {
         title: 'Modus (Nilai yang Sering Muncul)',
         content: `
-            <h3 class="text-2xl font-bold mb-4">Modus (Nilai yang Sering Muncul)</h3>
+
             <div class="bg-orange-900/30 border border-orange-800 p-4 rounded-lg mb-4">
               <p class="font-semibold mb-2 text-gray-300">Modus adalah nilai yang paling sering muncul dalam suatu data.</p>
             </div>
